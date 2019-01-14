@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'sagabooks';
+  src:  url('fonts/sagabooks.eot?5wrsps');
+  src:  url('fonts/sagabooks.eot?5wrsps#iefix') format('embedded-opentype'),
+    url('fonts/sagabooks.ttf?5wrsps') format('truetype'),
+    url('fonts/sagabooks.woff?5wrsps') format('woff'),
+    url('fonts/sagabooks.svg?5wrsps#sagabooks') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sagabooks' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sg-star:before {
+  content: "\e900";
+  color: #4c4309;
+}
+.icon-sg-arrowb:before {
+  content: "\e901";
+}
+.icon-sg-heart:before {
+  content: "\e902";
+}
+.icon-sg-menu:before {
+  content: "\e903";
+}
+.icon-sg-search:before {
+  content: "\e905";
+}
