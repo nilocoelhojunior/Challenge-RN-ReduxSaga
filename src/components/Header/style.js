@@ -26,7 +26,8 @@ export const Body = styled(NBBody)`
 export const Border = styled.View`
   width: 30%;
   height: 2px;
-  background: red;
-  top: 0px;
-  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.1);
+  top: 12%;
+  left: 34%;
+  position: absolute;
 `;

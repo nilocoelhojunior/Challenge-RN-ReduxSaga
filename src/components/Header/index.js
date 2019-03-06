@@ -13,10 +13,10 @@ export default class Header extends Component<Props> {
     const { title } = this.props;
     return (
       <React.Fragment>
-        <NBHeader>
+        <NBHeader noShadow transparent>
           <Left>
             <Button transparent>
-              <VectorIcon name="sg-menu" size={20} />
+              <VectorIcon name="sg-menu" size={22} />
             </Button>
           </Left>
           <Body>
@@ -24,7 +24,7 @@ export default class Header extends Component<Props> {
           </Body>
           <Right>
             <Button transparent>
-              <VectorIcon name="sg-search" size={23} />
+              <VectorIcon name="sg-search" size={25} />
             </Button>
           </Right>
         </NBHeader>
